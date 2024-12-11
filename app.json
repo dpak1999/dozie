@@ -16,7 +16,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.dozie"
     },
     "web": {
       "bundler": "metro",
@@ -25,6 +26,8 @@
     },
     "plugins": [
       "expo-router",
+      "react-native-bottom-tabs",
+      "expo-font",
       [
         "expo-splash-screen",
         {
@@ -40,12 +43,28 @@
           "launchMode": "most-recent"
         }
       ],
-      ["react-native-bottom-tabs"],
       [
-        "expo-build-properties",
+        "expo-dynamic-app-icon",
         {
-          "ios": {
-            "useFrameworks": "static"
+          "default": {
+            "image": "./assets/images/icon.png",
+            "prerendered": true
+          },
+          "dark": {
+            "image": "./assets/images/icon-dark.png",
+            "prerendered": true
+          },
+          "green": {
+            "image": "./assets/images/icon-green.png",
+            "prerendered": true
+          },
+          "blue": {
+            "image": "./assets/images/icon-blue.png",
+            "prerendered": true
+          },
+          "orange": {
+            "image": "./assets/images/icon-orange.png",
+            "prerendered": true
           }
         }
       ]
