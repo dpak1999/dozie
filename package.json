@@ -15,12 +15,14 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "@bottom-tabs/react-navigation": "^0.7.3",
     "@clerk/clerk-expo": "^2.5.0",
     "@expo/vector-icons": "^14.0.2",
     "@react-navigation/bottom-tabs": "^7.0.0",
     "@react-navigation/native": "^7.0.0",
     "expo": "~52.0.18",
     "expo-blur": "~14.0.1",
+    "expo-build-properties": "~0.13.1",
     "expo-constants": "~17.0.3",
     "expo-dev-client": "~5.0.6",
     "expo-font": "~13.0.1",
